@@ -1,6 +1,7 @@
 body {
   margin: 0;
-
+  box-sizing: border-box;
+    
   --color-blue: #00acdc;
   --color-black: #000;
   --header-height: 60px;
@@ -13,9 +14,6 @@ html {
   color: var(--color-black);
 }
 
-* {
-  box-sizing: border-box;
-}
 
 .header {
   display: flex;
@@ -63,7 +61,6 @@ html {
 
 .nav__link.is-active {
   color: var(--color-blue);
-  position: relative;
 }
 
 .nav__link.is-active::after {
