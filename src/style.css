@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  box-sizing: border-box;
     
   --color-blue: #00acdc;
   --color-black: #000;
@@ -16,6 +15,7 @@ html {
 
 
 .header {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
